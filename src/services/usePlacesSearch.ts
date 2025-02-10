@@ -83,6 +83,7 @@ export function usePlacesSearch() {
 
             const validBusinesses: Business[] = [];
             for (const [index, place] of places.entries()) {
+                
                 if (validBusinesses.length >= params.maxResults) break;
 
                 try {

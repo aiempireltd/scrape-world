@@ -121,7 +121,7 @@ export class EmailService {
                     totalBusinesses,
                     currentEmailsFound + batchEmailsFound
                 );
-
+                
                 return businesses;
             }
         } catch (error) {
